@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.page {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#tabs h1 {
+    color: white;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.sectionImage {
+    width: 150px;
+    border: 3px black solid;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.sectionText {
+    display: inline;
+}
+
+.section {
+    background-color: #4b2e83;
+    border-radius: 10px;
+    overflow: auto;
+    padding: 20px;
+    color: white;
+    font-size: 14pt;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;
+    text-shadow: 2px 1px 3px black;
+}
+
+.section a {
+    color: white;
+}
+
+.linkSection {
+    clear: both;
+    text-align: center;
+    font-size: 16pt;
+}
+
+#tabs {
+    background-color: #4b2e83;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.tab {
+    background-color: #cccccc;
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    padding: 5px 10px 5px 10px;
+}
+
+.tab a {
+    color: black;
+    text-decoration: none;
+}
+
+.selected {
+    background-color: white;
+}
+
+.peopleSection {
+    background-color: #b7a57a;
+    text-align: center;
+}
+
+.communitySection {
+    background-color: white;
+    border: 3px black solid;
+    color: black;
+    text-shadow: none;
+    text-align: center;
+}
+
+.communitySection .sectionImage {
+    float: none;
+    vertical-align: top;
+    width: 200px;
+}
+
+.communitySectionText {
+    text-align: left;
+}
+
+.peopleImage {
+    border-color: #4b2e83;
+}
+
+.highlightVideo {
+    width: 400px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    border: 3px solid #4b2e83;
+}
+
+.communitySection a {
+    color: black;
+}
